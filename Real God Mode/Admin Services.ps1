@@ -1,0 +1,1 @@
+﻿Start-Process gpedit.msc -Verb runas
