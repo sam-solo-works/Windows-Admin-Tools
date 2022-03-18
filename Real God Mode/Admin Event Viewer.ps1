@@ -1,0 +1,1 @@
+﻿Start-Process eventvwr.msc -Verb runas

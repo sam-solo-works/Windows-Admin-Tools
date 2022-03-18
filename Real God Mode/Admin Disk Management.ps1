@@ -1,0 +1,1 @@
+﻿Start-Process diskmgmt.msc -Verb runas

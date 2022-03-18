@@ -1,0 +1,1 @@
+﻿Start-Process lusrmgr. msc -Verb runas
