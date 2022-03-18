@@ -5,7 +5,7 @@ Foreach($NIC in $NICs) {
    Write-Output  "DNS Servers before  change:" >> $logs
    Write-Output $NIC.DNSServerSearchOrder >> $logs
    $NIC.DNSServerSearchOrder
-   $DNSServers = “10.70.10.34",”10.70.10.35"
+   $DNSServers = “10.1.10.2",”10.1.10.1"
    $NIC.SetDNSServerSearchOrder($DNSServers)
    $NIC.SetDynamicDNSRegistration(“TRUE”)
 }
