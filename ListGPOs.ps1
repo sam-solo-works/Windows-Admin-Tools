@@ -1,0 +1,1 @@
+﻿get-gpo -all | where {$_.DisplayName -match 'Adobe'}
